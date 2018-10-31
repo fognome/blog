@@ -15,5 +15,5 @@ fi
 
 cd public
 git commit -a -m "$*"
-git pull origin master --rebase
+# git pull origin master --rebase
 git push -u -f origin master
