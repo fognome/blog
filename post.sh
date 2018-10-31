@@ -14,6 +14,7 @@ if [ ! -d "public/.git" ]; then
 fi
 
 cd public
+git add .
 git commit -a -m "$*"
 # git pull origin master --rebase
 git push -u -f origin master
