@@ -5,7 +5,7 @@ git pull origin blog --rebase
 git push -u origin blog
 
 # update master branch
-rm -rf publish/*
+rm -rf public/*
 hugo
 
 if [ ! -d "public/.git" ]; then
@@ -13,7 +13,7 @@ if [ ! -d "public/.git" ]; then
     git checkout -b master
 fi
 
-cd publish
+cd public
 git commit -a -m "$*"
 git pull origin master --rebase
 git push -u origin master
