@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fognome</title>
+    <link>https://fognome.github.io/</link>
+    <description>Recent content on Fognome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Fri, 22 Apr 2016 11:45:52 +0000</lastBuildDate>
+    
+	<atom:link href="https://fognome.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://fognome.github.io/about/</link>
+      <pubDate>Fri, 22 Apr 2016 11:45:52 +0000</pubDate>
+      
+      <guid>https://fognome.github.io/about/</guid>
+      <description>搭一个框</description>
+    </item>
+    
+    <item>
+      <title>试试</title>
+      <link>https://fognome.github.io/2016/05/18/%E8%AF%95%E8%AF%95/</link>
+      <pubDate>Wed, 18 May 2016 14:13:44 +0000</pubDate>
+      
+      <guid>https://fognome.github.io/2016/05/18/%E8%AF%95%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
