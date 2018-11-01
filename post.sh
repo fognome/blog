@@ -6,6 +6,7 @@ git push -u origin blog
 
 # update master branch
 rm -rf public/*
+cp -f README.md public
 hugo
 cd public
 
