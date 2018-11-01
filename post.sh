@@ -7,14 +7,14 @@ git push -u origin blog
 # update master branch
 rm -rf public/*
 hugo
+cd public
 
-if [ ! -d "public/.git" ]; then
+if [ ! -d ".git" ]; then
     echo "copy .ssh to public"
-    cp -r .git public
+    cp -r ../.git .
     git checkout -b master
 fi
 
-cd public
 git add .
 git commit -a -m "$*"
 git pull origin master --rebase
