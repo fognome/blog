@@ -19,3 +19,4 @@ git add .
 git commit -a -m "$*"
 git pull origin master --rebase
 git push -u origin master
+cd ..
